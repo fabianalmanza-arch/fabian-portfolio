@@ -1,3 +1,5 @@
+import { useTranslation } from "react-i18next"
+
 import ProjectCard from "../components/ProjectCard"
 
 import bibliotecaImg from "../assets/biblioteca.PNG"
@@ -5,12 +7,14 @@ import prestamosImg from "../assets/prestamos.PNG"
 
 function Projects() {
 
+  const { t } = useTranslation()
+
   const projects = [
     {
       title: "Biblioteca FastAPI",
 
       description:
-        "Sistema web bibliotecario desarrollado con FastAPI y React. Incluye búsqueda de libros, algoritmos de ordenamiento, carga de imágenes y persistencia de datos.",
+        t("projects.bibliotecaDescription"),
 
       tech: [
         "FastAPI",
@@ -21,7 +25,8 @@ function Projects() {
 
       image: bibliotecaImg,
 
-      github: "https://github.com/fabianalmanza-arch/biblioteca-fastapi",
+      github:
+        "https://github.com/fabianalmanza-arch/biblioteca-fastapi",
 
       demo: "#"
     },
@@ -30,7 +35,7 @@ function Projects() {
       title: "Sistema de Préstamos",
 
       description:
-        "Aplicación web enfocada en la gestión de préstamos y clientes desarrollada con Java y Bootstrap.",
+        t("projects.prestamosDescription"),
 
       tech: [
         "Java",
@@ -57,16 +62,15 @@ function Projects() {
         <div className="mb-16">
 
           <p className="text-purple-400 mb-4 font-semibold">
-            Portfolio
+            {t("projects.subtitle")}
           </p>
 
           <h2 className="text-5xl font-bold mb-4">
-            Proyectos Destacados
+            {t("projects.title")}
           </h2>
 
           <p className="text-gray-400 max-w-2xl">
-            Algunos proyectos desarrollados utilizando tecnologías modernas
-            enfocadas en backend, frontend y desarrollo full stack.
+            {t("projects.description")}
           </p>
 
         </div>

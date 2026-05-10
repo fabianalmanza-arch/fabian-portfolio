@@ -1,28 +1,30 @@
 import { useState } from "react"
 import { HiMenu, HiX } from "react-icons/hi"
+import { useTranslation } from "react-i18next"
 
 function Navbar() {
 
   const [menuOpen, setMenuOpen] = useState(false)
+  const { t, i18n } = useTranslation()
 
   const navItems = [
     {
-      name: "Inicio",
+      name: t("navbar.home"),
       href: "#inicio"
     },
 
     {
-      name: "Sobre mí",
+      name: t("navbar.about"),
       href: "#sobre-mi"
     },
 
     {
-      name: "Proyectos",
+      name: t("navbar.projects"),
       href: "#proyectos"
     },
 
     {
-      name: "Contacto",
+      name: t("navbar.contact"),
       href: "#contacto"
     }
   ]
@@ -68,6 +70,32 @@ function Navbar() {
           ))}
 
         </ul>
+
+        <div className="hidden md:flex gap-3">
+
+            <button
+                onClick={() => i18n.changeLanguage("es")}
+                className="
+                text-sm
+                hover:text-purple-400
+                transition
+                "
+            >
+                ES
+            </button>
+
+            <button
+                onClick={() => i18n.changeLanguage("en")}
+                className="
+                text-sm
+                hover:text-purple-400
+                transition
+                "
+            >
+                EN
+            </button>
+
+        </div>
 
         {/* Mobile Button */}
 
@@ -115,6 +143,32 @@ function Navbar() {
             ))}
 
           </ul>
+
+          <div className="hidden md:flex gap-3">
+
+            <button
+                onClick={() => i18n.changeLanguage("es")}
+                className="
+                text-sm
+                hover:text-purple-400
+                transition
+                "
+            >
+                ES
+            </button>
+
+            <button
+                onClick={() => i18n.changeLanguage("en")}
+                className="
+                text-sm
+                hover:text-purple-400
+                transition
+                "
+            >
+                EN
+            </button>
+
+            </div>
 
         </div>
 

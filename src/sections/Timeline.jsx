@@ -1,44 +1,20 @@
 import { motion } from "framer-motion"
+import { useTranslation } from "react-i18next"
+
 import StatCard from "../components/StatCard"
 
 function Timeline() {
 
-  const timeline = [
-    {
-      year: "2025",
-      title: "Desarrollo Backend",
-      description:
-        "Aprendizaje de FastAPI, APIs REST y arquitectura backend."
-    },
+  const { t } = useTranslation()
 
-    {
-      year: "2025",
-      title: "Frontend con React",
-      description:
-        "Desarrollo de interfaces modernas utilizando React y JavaScript."
-    },
-
-    {
-      year: "2026",
-      title: "Java & Full Stack",
-      description:
-        "Creación de sistemas completos utilizando Java, Bootstrap y bases de datos."
-    },
-
-    {
-      year: "Actualmente",
-      title: "Análisis de Datos",
-      description:
-        "Aprendiendo Power BI, Python y herramientas orientadas a data analytics."
-    }
-  ]
+  const timeline = t("timeline.items", {
+    returnObjects: true
+  })
 
   return (
     <section className="py-32 px-6">
 
       <div className="max-w-7xl mx-auto">
-
-        {/* Stats */}
 
         <div className="
           grid
@@ -50,32 +26,30 @@ function Timeline() {
 
           <StatCard
             number="2+"
-            text="Proyectos Full Stack"
+            text={t("timeline.stats.projects")}
           />
 
           <StatCard
             number="5+"
-            text="Tecnologías Aprendidas"
+            text={t("timeline.stats.tech")}
           />
 
           <StatCard
-            number="1+"
-            text="Años Aprendiendo"
+            number="6+"
+            text={t("timeline.stats.years")}
           />
 
           <StatCard
             number="100%"
-            text="Enfocado en mejorar"
+            text={t("timeline.stats.focus")}
           />
 
         </div>
 
-        {/* Timeline */}
-
         <div>
 
           <p className="text-purple-400 mb-4 font-semibold">
-            Trayectoria
+            {t("timeline.subtitle")}
           </p>
 
           <h2 className="
@@ -83,7 +57,7 @@ function Timeline() {
             font-bold
             mb-16
           ">
-            Mi aprendizaje
+            {t("timeline.title")}
           </h2>
 
           <div className="relative border-l border-white/10 ml-4">
@@ -111,8 +85,6 @@ function Timeline() {
                   relative
                 "
               >
-
-                {/* Dot */}
 
                 <div className="
                   absolute

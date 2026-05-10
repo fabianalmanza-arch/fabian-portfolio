@@ -1,7 +1,11 @@
 import { motion } from "framer-motion"
+import { useTranslation } from "react-i18next"
+
 import SkillBadge from "../components/SkillBadge"
 
 function About() {
+
+  const { t } = useTranslation()
 
   const skills = [
     "React",
@@ -29,20 +33,15 @@ function About() {
         >
 
           <p className="text-purple-400 mb-4 font-semibold">
-            Sobre mí
+            {t("about.subtitle")}
           </p>
 
           <h2 className="text-5xl font-bold leading-tight mb-8">
-            Desarrollador enfocado en crear aplicaciones modernas y funcionales.
+            {t("about.title")}
           </h2>
 
           <p className="text-gray-400 leading-relaxed text-lg">
-            Soy desarrollador full stack apasionado por el backend,
-            la arquitectura de aplicaciones y el desarrollo de interfaces modernas.
-
-            Actualmente trabajo con tecnologías como React, FastAPI y Java,
-            mientras continúo aprendiendo análisis de datos y nuevas herramientas
-            para crear soluciones más completas.
+            {t("about.description")}
           </p>
 
         </motion.div>

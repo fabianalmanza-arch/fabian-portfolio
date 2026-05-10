@@ -1,4 +1,9 @@
+import { useTranslation } from "react-i18next"
+
 function Footer() {
+
+  const { t } = useTranslation()
+
   return (
     <footer
       id="contacto"
@@ -28,10 +33,7 @@ function Footer() {
               max-w-md
               leading-relaxed
             ">
-
-              Desarrollador enfocado en crear aplicaciones web modernas,
-              backend robusto y experiencias digitales funcionales.
-
+              {t("footer.description")}
             </p>
 
           </div>
@@ -39,7 +41,7 @@ function Footer() {
           <div>
 
             <h3 className="font-semibold mb-4">
-              Contacto
+              {t("footer.contact")}
             </h3>
 
             <div className="
@@ -56,6 +58,7 @@ function Footer() {
 
               <a
                 href="https://github.com/fabianalmanza-arch"
+                target="_blank"
                 className="hover:text-purple-400 transition"
               >
                 GitHub
@@ -63,6 +66,7 @@ function Footer() {
 
               <a
                 href="https://www.linkedin.com/in/fabian-andres-ba50511a3?utm_source=share_via&utm_content=profile&utm_medium=member_android"
+                target="_blank"
                 className="hover:text-purple-400 transition"
               >
                 LinkedIn
@@ -79,9 +83,7 @@ function Footer() {
           border-t border-white/10
           text-gray-500 text-sm
         ">
-
-          © 2026 Fabian Almanza — Portfolio Developer
-
+          {t("footer.rights")}
         </div>
 
       </div>

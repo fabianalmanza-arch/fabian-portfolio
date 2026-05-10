@@ -1,6 +1,10 @@
 import { motion } from "framer-motion"
+import { useTranslation } from "react-i18next"
 
 function Hero() {
+
+    const { t } = useTranslation()
+
   return (
     <section
       id="inicio"
@@ -12,6 +16,23 @@ function Hero() {
     >
 
       <div className="max-w-5xl mx-auto text-center">
+
+        <motion.p
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ duration: 0.6 }}
+          className="
+            text-purple-400
+            mb-4
+            font-semibold
+            tracking-widest
+          "
+        >
+
+          FABIAN ALMANZA
+
+        </motion.p>
+
 
         <motion.h2
           initial={{ opacity: 0, y: 40 }}
@@ -32,6 +53,21 @@ function Hero() {
         </motion.h2>
 
         <motion.p
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ delay: 0.2 }}
+          className="
+            mt-4
+            text-xl
+            text-purple-300
+          "
+        >
+
+          Backend • Full Stack • Data Analytics
+
+        </motion.p>
+
+        <motion.p
           initial={{ opacity: 0, y: 40 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1, delay: 0.2 }}
@@ -45,8 +81,7 @@ function Hero() {
           "
         >
 
-          Desarrollo aplicaciones web modernas utilizando
-          FastAPI, React, Java y PostgreSQL.
+          {t("hero.description")}
 
         </motion.p>
 
@@ -73,7 +108,7 @@ function Hero() {
               font-semibold
             "
           >
-            Ver Proyectos
+            {t("hero.projects")}
           </a>
 
           <a
@@ -87,7 +122,7 @@ function Hero() {
               transition
             "
           >
-            Descargar CV
+            {t("hero.cv")}
           </a>
 
         </motion.div>
