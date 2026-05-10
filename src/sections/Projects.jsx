@@ -61,7 +61,7 @@ function Projects() {
 
       image: prestamosImg,
 
-      github: "https://github.com/",
+      github: "https://github.com/fabianalmanza-arch/servicio-prestamos",
 
       demo: true,
 
