@@ -6,7 +6,8 @@ function ProjectCard({
   tech,
   image,
   github,
-  demo
+  demo,
+  onDemo
 }) {
 
   return (
@@ -84,9 +85,14 @@ function ProjectCard({
             GitHub
           </a>
 
-          <a
-            href={demo}
-            target="_blank"
+          <button
+            onClick={() => {
+              if (demo === true) {
+                onDemo()
+              } else if (typeof demo === "string") {
+                window.open(demo, "_blank")
+              }
+            }}
             className="
               px-4 py-2
               rounded-xl
@@ -96,7 +102,7 @@ function ProjectCard({
             "
           >
             Demo
-          </a>
+          </button>
 
         </div>
 

@@ -37,6 +37,8 @@ const resources = {
       projects: {
         subtitle: "Portfolio",
 
+        prestamosTitle: "Sistema de Préstamos",
+
         title: "Proyectos Destacados",
 
         description:
@@ -50,7 +52,120 @@ const resources = {
           "Sistema web bibliotecario desarrollado con FastAPI y React. Incluye búsqueda de libros, algoritmos de ordenamiento, carga de imágenes y persistencia de datos.",
 
         prestamosDescription:
-          "Aplicación web enfocada en la gestión de préstamos y clientes desarrollada con Java y Bootstrap."
+          "Aplicación web enfocada en la gestión de préstamos y clientes desarrollada con Java y Bootstrap.",
+
+        prestamosModal: {
+
+          fullDescription:
+            "Sistema administrativo desarrollado para la gestión de préstamos, clientes, empleados, pagos y seguimiento financiero. La plataforma permite administrar balances, controlar gastos, visualizar cronogramas de pago y generar recibos PDF.",
+
+          featuresTitle:
+            "Funcionalidades Principales",
+
+          problemsTitle:
+            "Problemas Solucionados",
+
+          features: [
+
+            "Gestión de clientes",
+            "Administración de empleados",
+            "Registro de préstamos",
+            "Cronogramas automáticos",
+            "Gestión de pagos",
+            "Generación de recibos PDF",
+            "Control de balances financieros",
+            "Seguimiento de cobradores"
+
+          ],
+
+          problemsSolved: [
+
+            "Automatización del cálculo y control de cuotas de préstamos.",
+
+            "Centralización de la información financiera y administrativa en un solo sistema.",
+
+            "Seguimiento detallado del rendimiento y cobros realizados por empleados.",
+
+            "Control de balances generales, efectivo disponible y cuentas bancarias.",
+
+            "Generación automática de cronogramas de pago para cada préstamo.",
+
+            "Registro organizado de gastos externos relacionados con la operación financiera.",
+
+            "Optimización del seguimiento de pagos pendientes y clientes morosos.",
+
+            "Generación de recibos PDF para respaldar pagos realizados."
+
+          ],
+
+          sections: {
+
+            dashboard: {
+              title: "Dashboard Principal",
+
+              description:
+                "Panel administrativo principal donde se controla el estado de empleados activos e inactivos, balances financieros generales, cuentas bancarias, efectivo disponible y gastos adicionales fuera de los préstamos."
+            },
+
+            clientes: {
+              title: "Gestión de Clientes",
+
+              description:
+                "Módulo encargado de administrar todos los clientes registrados dentro del sistema."
+            },
+
+            registroClientes: {
+              title: "Registro de Clientes",
+
+              description:
+                "Formulario de creación de clientes donde se solicitan múltiples datos personales y financieros."
+            },
+
+            empleados: {
+              title: "Gestión de Empleados",
+
+              description:
+                "Vista administrativa de empleados donde se visualiza la información general del personal."
+            },
+
+            registroEmpleados: {
+              title: "Registro de Empleados",
+
+              description:
+                "Formulario para registrar nuevos empleados dentro del sistema."
+            },
+
+            prestamos: {
+              title: "Módulo de Préstamos",
+
+              description:
+                "Sistema encargado de registrar préstamos asociados a clientes."
+            },
+
+            cronograma: {
+              title: "Cronograma de Pagos",
+
+              description:
+                "Visualización automática del cronograma generado para cada préstamo."
+            },
+
+            pagos: {
+              title: "Gestión de Pagos",
+
+              description:
+                "Panel de administración de pagos donde se registran y visualizan los abonos."
+            },
+
+            registroPagos: {
+              title: "Registro de Pagos",
+
+              description:
+                "Formulario utilizado para ingresar pagos realizados por clientes."
+            }
+
+          }
+
+        }
       },
 
       timeline: {
@@ -142,6 +257,8 @@ const resources = {
       projects: {
         subtitle: "Portfolio",
 
+        prestamosTitle: "Loan Management System",
+
         title: "Featured Projects",
 
         description:
@@ -155,7 +272,120 @@ const resources = {
           "Library management web system developed with FastAPI and React. Includes book search, sorting algorithms, image uploads and data persistence.",
 
         prestamosDescription:
-          "Web application focused on loan and client management developed with Java and Bootstrap."
+          "Web application focused on loan and client management developed with Java and Bootstrap.",
+
+        prestamosModal: {
+
+          fullDescription:
+            "Administrative system developed for loan management, clients, employees, payments and financial tracking. The platform allows balance management, expense control, payment schedule visualization and PDF receipt generation.",
+
+          featuresTitle:
+            "Main Features",
+
+          problemsTitle:
+            "Problems Solved",
+
+          features: [
+
+            "Client management",
+            "Employee administration",
+            "Loan registration",
+            "Automatic payment schedules",
+            "Payment management",
+            "PDF receipt generation",
+            "Financial balance control",
+            "Collector performance tracking"
+
+          ],
+
+          problemsSolved: [
+
+            "Automation of loan installment calculations and payment control.",
+
+            "Centralization of financial and administrative information into a single system.",
+
+            "Detailed tracking of employee performance and collections.",
+
+            "Control of general balances, available cash and bank accounts.",
+
+            "Automatic generation of payment schedules for each loan.",
+
+            "Organized registration of external operational expenses.",
+
+            "Optimization of overdue payments and delinquent client tracking.",
+
+            "Automatic PDF receipt generation for completed payments."
+
+          ],
+
+          sections: {
+
+            dashboard: {
+              title: "Main Dashboard",
+
+              description:
+                "Main administrative dashboard used to manage active and inactive employees, financial balances, bank accounts, available cash and operational expenses outside loan processing."
+            },
+
+            clientes: {
+              title: "Client Management",
+
+              description:
+                "Module responsible for managing all registered clients within the system."
+            },
+
+            registroClientes: {
+              title: "Client Registration",
+
+              description:
+                "Client creation form requesting personal and financial information."
+            },
+
+            empleados: {
+              title: "Employee Management",
+
+              description:
+                "Administrative employee view displaying general staff information."
+            },
+
+            registroEmpleados: {
+              title: "Employee Registration",
+
+              description:
+                "Form used to register new employees into the system."
+            },
+
+            prestamos: {
+              title: "Loan Module",
+
+              description:
+                "System responsible for registering loans associated with clients."
+            },
+
+            cronograma: {
+              title: "Payment Schedule",
+
+              description:
+                "Automatic visualization of generated payment schedules for each loan."
+            },
+
+            pagos: {
+              title: "Payment Management",
+
+              description:
+                "Payment administration panel used to manage and visualize client payments."
+            },
+
+            registroPagos: {
+              title: "Payment Registration",
+
+              description:
+                "Form used to register client payments and update loan status."
+            }
+
+          }
+
+        }
       },
 
       timeline: {
