@@ -144,7 +144,7 @@ function Navbar() {
 
           </ul>
 
-          <div className="hidden md:flex gap-3">
+          <div className="flex gap-3 mt-6">
 
             <button
                 onClick={() => i18n.changeLanguage("es")}
@@ -168,7 +168,7 @@ function Navbar() {
                 EN
             </button>
 
-            </div>
+          </div>
 
         </div>
 
