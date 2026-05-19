@@ -17,7 +17,7 @@ const resources = {
         title: "Full Stack Developer",
 
         description:
-          "Desarrollo aplicaciones web modernas utilizando FastAPI, React, Java y PostgreSQL.",
+          "Desarrollo de aplicaciones web modernas mediante tecnologías como FastAPI, React, Java y PostgreSQL, enfocadas en escalabilidad, automatización y eficiencia operativa.",
 
         projects: "Ver Proyectos",
 
@@ -28,10 +28,10 @@ const resources = {
         subtitle: "Sobre mí",
 
         title:
-          "Desarrollador enfocado en crear aplicaciones modernas y funcionales.",
+          "Desarrollador enfocado en crear soluciones modernas, escalables y funcionales.",
 
         description:
-          "Soy desarrollador full stack apasionado por el backend, la arquitectura de aplicaciones y el desarrollo de interfaces modernas. Actualmente trabajo con tecnologías como React, FastAPI y Java, mientras continúo aprendiendo análisis de datos y nuevas herramientas para crear soluciones más completas."
+          "Desarrollador Full Stack con conocimientos en backend, frontend y arquitectura de aplicaciones web. Experiencia en el desarrollo de soluciones administrativas utilizando tecnologías como React, FastAPI, Java y PostgreSQL, enfocadas en automatización de procesos, gestión de datos y optimización operativa. Actualmente fortaleciendo habilidades en análisis de datos, Python y Power BI para el desarrollo de soluciones tecnológicas más integrales."
       },
 
       projects: {
@@ -42,22 +42,22 @@ const resources = {
         title: "Proyectos Destacados",
 
         description:
-          "Algunos proyectos desarrollados utilizando tecnologías modernas enfocadas en backend, frontend y desarrollo full stack.",
+          "Proyectos desarrollados con tecnologías modernas enfocados en automatización de procesos, gestión de información, arquitecturas escalables y desarrollo de soluciones administrativas y full stack.",
 
         github: "GitHub",
 
         demo: "Demo",
 
         bibliotecaDescription:
-          "Sistema web bibliotecario desarrollado con FastAPI y React. Incluye búsqueda de libros, algoritmos de ordenamiento, carga de imágenes y persistencia de datos.",
+          "Aplicación web full stack desarrollada para la gestión bibliotecaria utilizando FastAPI, React y PostgreSQL. Implementa búsqueda optimizada de libros, algoritmos de ordenamiento, carga de imágenes y persistencia de datos mediante una arquitectura backend escalable.",
 
         prestamosDescription:
-          "Aplicación web enfocada en la gestión de préstamos y clientes desarrollada con Java y Bootstrap.",
+          "Plataforma administrativa desarrollada con Java, Bootstrap y MySQL para la gestión de préstamos, clientes y pagos. Diseñada para optimizar procesos financieros, automatizar el seguimiento de pagos y centralizar la administración operativa dentro de un único sistema.",
 
         prestamosModal: {
 
           fullDescription:
-            "Sistema administrativo desarrollado para la gestión de préstamos, clientes, empleados, pagos y seguimiento financiero. La plataforma permite administrar balances, controlar gastos, visualizar cronogramas de pago y generar recibos PDF.",
+            "Plataforma administrativa y financiera desarrollada para la gestión de préstamos, administración de empleados, control de pagos y seguimiento de balances. El sistema centraliza procesos financieros, automatiza cronogramas de pago, optimiza el monitoreo operativo y genera recibos PDF para mejorar la eficiencia administrativa.",
 
           featuresTitle:
             "Funcionalidades Principales",
@@ -67,34 +67,34 @@ const resources = {
 
           features: [
 
-            "Gestión de clientes",
-            "Administración de empleados",
-            "Registro de préstamos",
-            "Cronogramas automáticos",
-            "Gestión de pagos",
-            "Generación de recibos PDF",
-            "Control de balances financieros",
-            "Seguimiento de cobradores"
+            "Gestión centralizada de clientes",
+            "Módulo administrativo de empleados",
+            "Registro y seguimiento de préstamos",
+            "Generación automática de cronogramas de pago",
+            "Sistema de control y seguimiento de pagos",
+            "Generación digital de recibos PDF",
+            "Control de balances financieros y flujo de caja",
+            "Monitoreo del rendimiento de cobradores"
 
           ],
 
           problemsSolved: [
 
-            "Automatización del cálculo y control de cuotas de préstamos.",
+            "Automatización de procesos de cálculo y control de cuotas de préstamos.",
 
-            "Centralización de la información financiera y administrativa en un solo sistema.",
+            "Reducción de tareas administrativas manuales mediante gestión financiera centralizada.",
 
-            "Seguimiento detallado del rendimiento y cobros realizados por empleados.",
+            "Mejora del seguimiento operativo y rendimiento de cobradores.",
 
-            "Control de balances generales, efectivo disponible y cuentas bancarias.",
+            "Optimización del control de balances financieros, efectivo disponible y cuentas bancarias.",
 
-            "Generación automática de cronogramas de pago para cada préstamo.",
+            "Generación automática de cronogramas de pago para mejorar la eficiencia operativa.",
 
-            "Registro organizado de gastos externos relacionados con la operación financiera.",
+            "Gestión estructurada de gastos operativos y registros financieros.",
 
-            "Optimización del seguimiento de pagos pendientes y clientes morosos.",
+            "Optimización del seguimiento de pagos pendientes y control de clientes morosos.",
 
-            "Generación de recibos PDF para respaldar pagos realizados."
+            "Generación digital de recibos PDF para agilizar y organizar el proceso de pagos."
 
           ],
 
@@ -104,63 +104,63 @@ const resources = {
               title: "Dashboard Principal",
 
               description:
-                "Panel administrativo principal donde se controla el estado de empleados activos e inactivos, balances financieros generales, cuentas bancarias, efectivo disponible y gastos adicionales fuera de los préstamos."
+                "Panel administrativo principal diseñado para monitorear balances financieros, cuentas bancarias, efectivo disponible, gastos operativos y estado general del personal dentro de la plataforma."
             },
 
             clientes: {
               title: "Gestión de Clientes",
 
               description:
-                "Módulo encargado de administrar todos los clientes registrados dentro del sistema."
+                "Módulo administrativo diseñado para la gestión centralizada de clientes, permitiendo acceso organizado a información personal, financiera y operativa."
             },
 
             registroClientes: {
               title: "Registro de Clientes",
 
               description:
-                "Formulario de creación de clientes donde se solicitan múltiples datos personales y financieros."
+                "Interfaz de registro desarrollada para almacenar información personal y financiera necesaria para la gestión y evaluación de clientes."
             },
 
             empleados: {
               title: "Gestión de Empleados",
 
               description:
-                "Vista administrativa de empleados donde se visualiza la información general del personal."
+                "Vista administrativa enfocada en el control y visualización de la información general del personal registrado dentro del sistema."
             },
 
             registroEmpleados: {
               title: "Registro de Empleados",
 
               description:
-                "Formulario para registrar nuevos empleados dentro del sistema."
+                "Interfaz de registro de empleados diseñada para optimizar procesos administrativos y de incorporación de personal."
             },
 
             prestamos: {
               title: "Módulo de Préstamos",
 
               description:
-                "Sistema encargado de registrar préstamos asociados a clientes."
+                "Módulo encargado de registrar y administrar préstamos asociados a clientes, permitiendo control financiero y seguimiento operativo."
             },
 
             cronograma: {
               title: "Cronograma de Pagos",
 
               description:
-                "Visualización automática del cronograma generado para cada préstamo."
+                "Visualización automatizada de cronogramas de pago generados dinámicamente para cada préstamo registrado."
             },
 
             pagos: {
               title: "Gestión de Pagos",
 
               description:
-                "Panel de administración de pagos donde se registran y visualizan los abonos."
+                "Panel administrativo diseñado para registrar, controlar y visualizar pagos realizados por clientes dentro del sistema."
             },
 
             registroPagos: {
               title: "Registro de Pagos",
 
               description:
-                "Formulario utilizado para ingresar pagos realizados por clientes."
+                "Formulario utilizado para registrar pagos y actualizar automáticamente el estado financiero de cada préstamo."
             }
 
           }
@@ -171,7 +171,7 @@ const resources = {
       timeline: {
         subtitle: "Trayectoria",
 
-        title: "Mi aprendizaje",
+        title: "Trayectoria Profesional y Aprendizaje",
 
         stats: {
           projects: "Proyectos Full Stack",
@@ -185,35 +185,35 @@ const resources = {
             year: "2019",
             title: "Inicio en Desarrollo de Software",
             description:
-              "Comencé mi formación en programación y desarrollo de software, aprendiendo lógica, bases de datos y fundamentos del desarrollo."
+              "Inicio del proceso de formación en programación y desarrollo de software, adquiriendo conocimientos en lógica de programación, bases de datos y fundamentos del desarrollo."
           },
 
           {
             year: "2021",
             title: "Tecnología ADSI",
             description:
-              "Finalicé la tecnología en Análisis y Desarrollo de Sistemas de Información, fortaleciendo conocimientos en desarrollo web, bases de datos y arquitectura de software."
+              "Finalización de la tecnología en Análisis y Desarrollo de Sistemas de Información, fortaleciendo conocimientos en desarrollo web, bases de datos y arquitectura de software."
           },
 
           {
             year: "2024",
             title: "Ingeniería Informática",
             description:
-              "Inicio de Ingeniería Informática enfocado en profundizar conocimientos en desarrollo, arquitectura de sistemas y tecnologías modernas."
+              "Inicio de Ingeniería Informática con enfoque en desarrollo de software, arquitectura de sistemas y tecnologías modernas orientadas a soluciones escalables."
           },
 
           {
             year: "Actualmente",
             title: "Full Stack & Data Analytics",
             description:
-              "Actualmente continúo fortaleciendo mis habilidades en React, FastAPI, Java, PostgreSQL y análisis de datos con Python y Power BI."
+              "Fortalecimiento continuo de habilidades en React, FastAPI, Java, PostgreSQL, Python y Power BI, enfocado en desarrollo full stack y análisis de datos."
           }
         ]
       },
 
       footer: {
         description:
-          "Desarrollador enfocado en crear aplicaciones web modernas, backend robusto y experiencias digitales funcionales.",
+          "Desarrollador enfocado en el desarrollo de aplicaciones web modernas, arquitecturas backend robustas y soluciones digitales funcionales y escalables.",
 
         contact: "Contacto",
 
@@ -237,7 +237,7 @@ const resources = {
         title: "Full Stack Developer",
 
         description:
-          "I build modern web applications using FastAPI, React, Java and PostgreSQL.",
+          "Development of modern web applications using FastAPI, React, Java and PostgreSQL, focused on scalability, process automation and operational efficiency.",
 
         projects: "View Projects",
 
@@ -248,10 +248,10 @@ const resources = {
         subtitle: "About Me",
 
         title:
-          "Developer focused on building modern and functional applications.",
+          "Developer focused on building modern, scalable and functional solutions.",
 
         description:
-          "I am a full stack developer passionate about backend architecture and modern interface development. I currently work with technologies such as React, FastAPI and Java while continuing to learn data analytics and new tools to create more complete solutions."
+          "Full Stack Developer with knowledge in backend, frontend and web application architecture. Experience developing administrative solutions using technologies such as React, FastAPI, Java and PostgreSQL, focused on process automation, data management and operational optimization. Currently strengthening skills in data analytics, Python and Power BI to build more comprehensive technological solutions."
       },
 
       projects: {
@@ -262,22 +262,22 @@ const resources = {
         title: "Featured Projects",
 
         description:
-          "Some projects developed using modern technologies focused on backend, frontend and full stack development.",
+          "Projects developed with modern technologies focused on process automation, information management, scalable architectures and full stack administrative solutions.",
 
         github: "GitHub",
 
         demo: "Demo",
 
         bibliotecaDescription:
-          "Library management web system developed with FastAPI and React. Includes book search, sorting algorithms, image uploads and data persistence.",
+          "Full stack web application developed for library management using FastAPI, React and PostgreSQL. Implements optimized book search, sorting algorithms, image handling and persistent data management through scalable backend architecture.",
 
         prestamosDescription:
-          "Web application focused on loan and client management developed with Java and Bootstrap.",
+          "Administrative web platform developed with Java, Bootstrap and MySQL for loan, client and payment management. Designed to optimize financial operations, automate payment tracking and centralize administrative processes within a single system.",
 
         prestamosModal: {
 
           fullDescription:
-            "Administrative system developed for loan management, clients, employees, payments and financial tracking. The platform allows balance management, expense control, payment schedule visualization and PDF receipt generation.",
+            "Administrative and financial management platform developed for loan operations, employee administration, payment tracking and balance control. The system centralizes financial processes, automates payment scheduling, improves operational monitoring and generates PDF receipts to optimize administrative efficiency.",
 
           featuresTitle:
             "Main Features",
@@ -287,34 +287,34 @@ const resources = {
 
           features: [
 
-            "Client management",
-            "Employee administration",
-            "Loan registration",
-            "Automatic payment schedules",
-            "Payment management",
+            "Centralized client management",
+            "Employee administration module",
+            "Loan registration and monitoring",
+            "Automated payment schedule generation",
+            "Payment tracking system",
             "PDF receipt generation",
-            "Financial balance control",
-            "Collector performance tracking"
+            "Financial balance and cash flow control",
+            "Collection performance monitoring"
 
           ],
 
           problemsSolved: [
 
-            "Automation of loan installment calculations and payment control.",
+            "Automation of loan calculation processes and payment control workflows.",
 
-            "Centralization of financial and administrative information into a single system.",
+            "Reduction of manual administrative tasks through centralized financial management.",
 
-            "Detailed tracking of employee performance and collections.",
+            "Improved monitoring of employee collections and operational performance.",
 
-            "Control of general balances, available cash and bank accounts.",
+            "Optimization of financial balance tracking, cash availability and bank account control.",
 
-            "Automatic generation of payment schedules for each loan.",
+            "Automatic generation of payment schedules to improve operational efficiency.",
 
-            "Organized registration of external operational expenses.",
+            "Structured management of operational expenses and financial records.",
 
-            "Optimization of overdue payments and delinquent client tracking.",
+            "Enhanced overdue payment tracking and delinquent client monitoring.",
 
-            "Automatic PDF receipt generation for completed payments."
+            "Digital generation of PDF receipts for faster and more organized payment processing."
 
           ],
 
@@ -324,63 +324,63 @@ const resources = {
               title: "Main Dashboard",
 
               description:
-                "Main administrative dashboard used to manage active and inactive employees, financial balances, bank accounts, available cash and operational expenses outside loan processing."
+                "Main administrative dashboard designed to monitor financial balances, bank accounts, available cash, operational expenses and overall staff status within the platform."
             },
 
             clientes: {
               title: "Client Management",
 
               description:
-                "Module responsible for managing all registered clients within the system."
+                "Administrative module designed for centralized client management, allowing organized access to personal, financial and operational information."
             },
 
             registroClientes: {
               title: "Client Registration",
 
               description:
-                "Client creation form requesting personal and financial information."
+                "Registration interface developed to store personal and financial information required for client management and evaluation."
             },
 
             empleados: {
               title: "Employee Management",
 
               description:
-                "Administrative employee view displaying general staff information."
+                "Administrative view focused on monitoring and visualizing general staff information registered within the system."
             },
 
             registroEmpleados: {
               title: "Employee Registration",
 
               description:
-                "Form used to register new employees into the system."
+                "Employee registration interface designed to optimize administrative and personnel onboarding processes."
             },
 
             prestamos: {
               title: "Loan Module",
 
               description:
-                "System responsible for registering loans associated with clients."
+                "Module responsible for registering and managing loans associated with clients, allowing financial control and operational monitoring."
             },
 
             cronograma: {
               title: "Payment Schedule",
 
               description:
-                "Automatic visualization of generated payment schedules for each loan."
+                "Automated visualization of dynamically generated payment schedules for each registered loan."
             },
 
             pagos: {
               title: "Payment Management",
 
               description:
-                "Payment administration panel used to manage and visualize client payments."
+                "Administrative panel designed to register, monitor and visualize client payments within the system."
             },
 
             registroPagos: {
               title: "Payment Registration",
 
               description:
-                "Form used to register client payments and update loan status."
+                "Form used to register payments and automatically update the financial status of each loan."
             }
 
           }
@@ -391,7 +391,7 @@ const resources = {
       timeline: {
         subtitle: "Journey",
 
-        title: "My Learning Path",
+        title: "Professional Journey & Learning Path",
 
         stats: {
           projects: "Full Stack Projects",
@@ -405,7 +405,7 @@ const resources = {
             year: "2019",
             title: "Beginning in Software Development",
             description:
-              "I started my journey in programming and software development, learning logic, databases and development fundamentals."
+              "Started the learning process in programming and software development, acquiring knowledge in programming logic, databases and software development fundamentals."
           },
 
           {
@@ -419,21 +419,21 @@ const resources = {
             year: "2024",
             title: "Computer Engineering",
             description:
-              "Started Computer Engineering focused on deepening knowledge in software development, system architecture and modern technologies."
+              "Started Computer Engineering focused on software development, system architecture and modern technologies oriented toward scalable solutions."
           },
 
           {
             year: "Currently",
             title: "Full Stack & Data Analytics",
             description:
-              "Currently strengthening my skills in React, FastAPI, Java, PostgreSQL and data analytics with Python and Power BI."
+              "Continuously strengthening skills in React, FastAPI, Java, PostgreSQL, Python and Power BI, focused on full stack development and data analytics."
           }
         ]
       },
 
       footer: {
         description:
-          "Developer focused on building modern web applications, robust backend systems and functional digital experiences.",
+          "Developer focused on building modern web applications, robust backend architectures and scalable digital solutions.",
 
         contact: "Contact",
 
