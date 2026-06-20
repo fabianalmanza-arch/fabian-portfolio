@@ -20,6 +20,13 @@ import cronogramaImg from "../assets/screenshots/prestamos_cronograma.PNG"
 import pagosImg from "../assets/screenshots/pagos.PNG"
 import registroPagoImg from "../assets/screenshots/pagos_registro.PNG"
 
+import plateaMainImg from "../assets/screenshots/platea_main.png" 
+import plateaCajaImg from "../assets/screenshots/caja.png"
+import plateaCocinaImg from "../assets/screenshots/cocina.png"
+import plateaProductosImg from "../assets/screenshots/de_productos.png"
+import plateaFinanzasImg from "../assets/screenshots/de_finanzas.png"
+import plateaMenuImg from "../assets/screenshots/menu.png"
+
 function Projects() {
 
   const { t } = useTranslation()
@@ -173,7 +180,49 @@ function Projects() {
         }
 
       ]
+    },
+
+    {
+      title: "Platea",
+      description: t("projects.plateaDescription"),
+      tech: ["React", "FastAPI", "Python", "JavaScript", "TailwindCSS"],
+      image: plateaMainImg,
+      github: "https://github.com/fabianalmanza-arch/platea-saas", // Cambia por tu link real
+      demo: true, // true para que abra el ProjectModal interactivo con las secciones
+      fullDescription: t("projects.plateaModal.fullDescription"),
+      featuresTitle: t("projects.plateaModal.featuresTitle"),
+      problemsTitle: t("projects.plateaModal.problemsTitle"),
+      features: t("projects.plateaModal.features", { returnObjects: true }),
+      problemsSolved: t("projects.plateaModal.problemsSolved", { returnObjects: true }),
+      sections: [
+        {
+          title: t("projects.plateaModal.sections.caja.title"),
+          description: t("projects.plateaModal.sections.caja.description"),
+          image: plateaCajaImg
+        },
+        {
+          title: t("projects.plateaModal.sections.cocina.title"),
+          description: t("projects.plateaModal.sections.cocina.description"),
+          image: plateaCocinaImg
+        },
+        {
+          title: t("projects.plateaModal.sections.productos.title"),
+          description: t("projects.plateaModal.sections.productos.description"),
+          image: plateaProductosImg
+        },
+        {
+          title: t("projects.plateaModal.sections.finanzas.title"),
+          description: t("projects.plateaModal.sections.finanzas.description"),
+          image: plateaFinanzasImg
+        },
+        {
+          title: t("projects.plateaModal.sections.menu.title"),
+          description: t("projects.plateaModal.sections.menu.description"),
+          image: plateaMenuImg
+        }
+      ]
     }
+
   ]
 
   return (

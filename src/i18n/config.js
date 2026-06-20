@@ -165,6 +165,45 @@ const resources = {
 
           }
 
+        },
+        "plateaDescription": "Solución integral y centralizada para la gestión en tiempo real de restaurantes y bares, optimizando la comunicación entre caja, cocina y clientes.",
+        "plateaModal": {
+          "fullDescription": "Platea es un ecosistema Full-Stack modular diseñado para digitalizar por completo la operación de un establecimiento gastronómico. Permite sincronizar los flujos de trabajo desde el momento en que un cliente escanea un código QR hasta el balance contable final, reduciendo drásticamente los tiempos de espera y eliminando errores humanos de comandas.",
+          "featuresTitle": "Características Principales",
+          "problemsTitle": "Problemas Resueltos",
+          "features": [
+            "Sistema KDS (Kitchen Display System) para sincronización instantánea de comandas.",
+            "Punto de Venta (POS) ágil para cobros flexibles y registro inmediato de ventas.",
+            "Menú digital interactivo accesible vía QR con carrito de compras integrado.",
+            "Panel administrativo completo para control de inventario, categorías y finanzas."
+          ],
+          "problemsSolved": [
+            "Eliminación de retrasos y confusiones entre los meseros y el personal de cocina.",
+            "Automatización de la contabilidad diaria mediante reportes dinámicos de ingresos y utilidades netas.",
+            "Mejora en la experiencia de usuario del comensal, permitiendo pedidos autónomos desde la mesa."
+          ],
+          "sections": {
+            "caja": {
+              "title": "Agilidad en Caja (POS)",
+              "description": "Terminal unificada que permite crear pedidos rápidamente, despacharlos de forma directa al monitor de la cocina (KDS) y procesar múltiples métodos de pago de forma transparente."
+            },
+            "cocina": {
+              "title": "Eficiencia en Cocina (KDS)",
+              "description": "Pantalla optimizada para el personal culinario que recibe las comandas en tiempo real, gestiona los estados de preparación (Nuevo/En Proceso/Listo) y gatilla alertas instantáneas al cajero."
+            },
+            "productos": {
+              "title": "Administración Total del Catálogo",
+              "description": "Módulo administrativo que permite crear, editar y categorizar platos o bebidas en segundos, configurar variaciones o adiciones, y asignar códigos QR a mesas específicas."
+            },
+            "finanzas": {
+              "title": "Inteligencia Financiera",
+              "description": "Dashboard contable avanzado que recopila el historial detallado de ventas para calcular ingresos brutos, egresos y la utilidad neta en ventanas de tiempo personalizadas."
+            },
+            "menu": {
+              "title": "Menú Digital Auto-gestionado",
+              "description": "Interfaz móvil fluida e intuitiva para los clientes. Permite visualizar la carta actual, armar un carrito de compras y enviar el pedido directamente a la cocina identificando el número de mesa."
+            }
+          }
         }
       },
 
@@ -385,7 +424,47 @@ const resources = {
 
           }
 
+        },
+        "plateaDescription": "Comprehensive and centralized solution for real-time restaurant and bar management, optimizing communication between checkout, kitchen, and customers.",
+        "plateaModal": {
+          "fullDescription": "Platea is a modular Full-Stack ecosystem designed to completely digitalize the operation of food and beverage establishments. It synchronizes workflows from the moment a customer scans a QR code to the final accounting balance, drastically reducing wait times and eliminating human error in ticket management.",
+          "featuresTitle": "Key Features",
+          "problemsTitle": "Problems Solved",
+          "features": [
+            "KDS (Kitchen Display System) for instant order synchronization.",
+            "Agile Point of Sale (POS) for flexible payments and immediate sales tracking.",
+            "Interactive digital menu accessible via QR with an integrated shopping cart.",
+            "Comprehensive admin panel for inventory, categories, and financial control."
+          ],
+          "problemsSolved": [
+            "Elimination of delays and miscommunications between waitstaff and kitchen personnel.",
+            "Automation of daily accounting through dynamic income and net profit tracking charts.",
+            "Enhanced diner experience by allowing autonomous order placement directly from the table."
+          ],
+          "sections": {
+            "caja": {
+              "title": "Agility at Checkout (POS)",
+              "description": "Unified terminal that allows fast order creation, direct dispatch to the kitchen monitor (KDS), and seamless processing of multiple payment methods."
+            },
+            "cocina": {
+              "title": "Kitchen Efficiency (KDS)",
+              "description": "Optimized screen for culinary staff that receives tickets in real time, manages preparation statuses (New/In Progress/Ready), and triggers instant notifications to the cashier."
+            },
+            "productos": {
+              "title": "Total Catalog Administration",
+              "description": "Administrative module to create, edit, and categorize dishes or drinks in seconds, configure variations or add-ons, and assign QR codes to specific tables."
+            },
+            "finanzas": {
+              "title": "Financial Intelligence",
+              "description": "Advanced accounting dashboard that compiles detailed sales histories to calculate gross revenue, expenses, and net profit within custom timeframes."
+            },
+            "menu": {
+              "title": "Self-Managed Digital Menu",
+              "description": "Fluid and intuitive mobile interface for customers. It enables viewing the current menu, assembling a shopping cart, and sending the order straight to the kitchen tied to their table number."
+            }
+          }
         }
+        
       },
 
       timeline: {
