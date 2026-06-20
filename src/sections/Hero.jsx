@@ -2,8 +2,11 @@ import { motion } from "framer-motion"
 import { useTranslation } from "react-i18next"
 
 function Hero() {
+  const { t, i18n } = useTranslation()
 
-    const { t } = useTranslation()
+  const cvPath = i18n.language.startsWith('en') 
+    ? "/cv-fabian almanza-en.pdf" 
+    : "/cv-fabian almanza-es.pdf"
 
   return (
     <section
@@ -14,7 +17,6 @@ function Hero() {
         px-6 pt-20
       "
     >
-
       <div className="max-w-5xl mx-auto text-center">
 
         <motion.p
@@ -28,11 +30,8 @@ function Hero() {
             tracking-widest
           "
         >
-
           FABIAN ALMANZA
-
         </motion.p>
-
 
         <motion.h2
           initial={{ opacity: 0, y: 40 }}
@@ -46,10 +45,8 @@ function Hero() {
             leading-tight
           "
         >
-
           Full Stack
           <span className="text-purple-400"> Developer</span>
-
         </motion.h2>
 
         <motion.p
@@ -62,9 +59,7 @@ function Hero() {
             text-purple-300
           "
         >
-
           Backend • Full Stack • Data Analytics
-
         </motion.p>
 
         <motion.p
@@ -80,9 +75,7 @@ function Hero() {
             leading-relaxed
           "
         >
-
           {t("hero.description")}
-
         </motion.p>
 
         <motion.div
@@ -96,7 +89,6 @@ function Hero() {
             gap-4
           "
         >
-
           <a
             href="#proyectos"
             className="
@@ -111,9 +103,10 @@ function Hero() {
             {t("hero.projects")}
           </a>
 
+          {/* Cambiamos el href estático por nuestra variable dinámica */}
           <a
-            href="/cv.pdf"
-            download
+            href={cvPath}
+            download={`CV_Fabian_Almanza_${i18n.language.startsWith('en') ? 'EN' : 'ES'}.pdf`}
             className="
               px-6 py-3
               rounded-2xl
@@ -126,9 +119,7 @@ function Hero() {
           </a>
 
         </motion.div>
-
       </div>
-
     </section>
   )
 }
